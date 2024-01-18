@@ -1,5 +1,10 @@
 # xai-RF-android-detector
 Welcome to my project, this is about a Random Forest model trained to classify android .apk file as malicious or benign, with XAI Shap applied (not completed in testing)
+
+**Before we go to details, please be aware that:**
+> [!NOTE]
+> This project is merely a scrap to those who're ML experts, ML specialists in their majors so don't expect something from here, just take it for ML implementation example
+
 ## How to use
 To run this project you need to do 2 things
 + Pull and follow instructions to use [AndroPyTool](https://github.com/alexMyG/AndroPyTool). Note that AndroPyTool is run on Python 2.
@@ -47,6 +52,3 @@ optional arguments:
 +  `-ext`, `--apkextension`  Some malicious apk may not have .apk extension, use
                         this to add .apk to the end of those file, else
                         AndroPyTool wont be able to process
-
-> [!NOTE]
-> This project is merely a scrap to those who're a ML expert, ML specialists in their major so don't expect something from here, just take it for ML implementation example
