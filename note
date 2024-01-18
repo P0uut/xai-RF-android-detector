@@ -1,0 +1,4 @@
+1. Install ipykernel inside your virtual environment (may get ImportError: No module named ipykernel.pylab.backend_inline)
+    source activate your virtualenv
+    pip install ipykernel
+    python -m ipykernel install --user
